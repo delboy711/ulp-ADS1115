@@ -12,7 +12,7 @@ Note: If no ADS1115 is present, or incorrectly configured, the ULP process will 
 
 
 ## Requirements
-* <strong>ulptool</strong>  https://github.com/duff2013/ulptool  At the time of writing there were some bugs relating to Python 3 in this repository, so I used the fork at https://github.com/angyongen/ulptool  which resolved them.  Test ulptool with the examples provided with it, but do not expect to be able to comple the i2c-bitbang example.
+* <strong>ulptool</strong>  https://github.com/duff2013/ulptool  ulptool is the magic glue that integrates the ULP assembler into the Arduino IDE. It must be installed before the IDE can compile the sketch.  At the time of writing there were some bugs relating to Python 3 in this repository, so I used the fork at https://github.com/angyongen/ulptool  which resolved them.  Test ulptool with the examples provided with it, but do not expect to be able to comple the i2c-bitbang example.
 
 ## Resources
 * Learn about ULP and ulptool from the guy with the Swiss accent https://youtu.be/-QIcUTBB7Ww
